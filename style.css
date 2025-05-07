@@ -1,0 +1,94 @@
+@font-face {
+    font-family: titulo;
+    src: url('fonts/font-titulo/Curry\ Ramen.otf') format('opentype');
+}
+@font-face {
+    font-family: letra;
+    src: url('fonts/font-letra/OneSignature.otf') format('opentype');
+}
+header{
+    background-color: black;
+    height: 100px;
+    color:white;
+    text-align: center;
+    font-family:titulo;
+    font-size: 3em;;
+    padding: 28px;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+#title{
+    margin: 0;
+  
+}
+
+#parte-superior{
+    height: 1000px;
+    background-color: lightcyan;
+}
+
+#parte-meio{
+    height: 1000px;
+    background-color: lightgreen;
+}
+
+#parte-inferior{
+    height:1000px;
+    background-color:lightgray
+}
+
+#imagem-cima{
+    height: 1000px;
+    background-image: url('imagens/imagem1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+
+}
+
+#imagem-baixo{
+    height:1000px;
+    background-image: url('imagens/imagem2.jpg');
+    background-size:cover;
+    background-attachment: fixed ;
+    position:relative;
+    background-position: right center;
+}
+
+#p-img1{
+    width: 800px;
+    height: 800px;
+    text-align: left;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.607);
+    font-size: 5.5em;
+    position: absolute;
+    left: 3%;
+    top:50%;
+    transform: translate(0%, -61%);
+    border-radius: 25px;
+    color:white;
+    background-position: left center;
+    font-family:letra;
+}
+
+#p-img2{
+    width: 800px;
+    height: 800px;
+    text-align: justify;
+    padding:20px;
+    background-color: rgba(0, 0, 0, 0.607);
+    font-size: 5.5em;
+    position: absolute;
+    left: 3%;
+    top:50%;
+    transform:translate(0%, -61%);
+    border-radius: 25px;
+    color:white;
+    background-position: left center;
+    font-family: letra;
+}
