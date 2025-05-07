@@ -12,8 +12,8 @@ header{
     color:white;
     text-align: center;
     font-family:titulo;
-    font-size: 3em;;
-    padding: 28px;
+    padding: 28px 0px 28px 0px;
+    width: 100%;
 }
 
 body{
@@ -23,6 +23,8 @@ body{
 
 #title{
     margin: 0;
+    font-size:clamp(4em, 10vw, 6em);
+    
   
 }
 
@@ -60,12 +62,13 @@ body{
 }
 
 #p-img1{
-    width: 800px;
+    width: 60vw;
     height: 800px;
+    max-width: 750px;
     text-align: left;
     padding: 20px;
     background-color:rgba(0, 0, 0, 0.607);
-    font-size: 5.5em;
+    font-size:clamp(4em, 8vw, 6.3em); 
     position: absolute;
     left: 3%;
     top:50%;
@@ -77,12 +80,13 @@ body{
 }
 
 #p-img2{
-    width: 800px;
+    width: 60vw;
     height: 800px;
+    max-width: 750px;
     text-align: justify;
     padding:20px;
     background-color: rgba(0, 0, 0, 0.607);
-    font-size: 5.5em;
+    font-size:clamp(4em, 8vw, 6.3em);
     position: absolute;
     left: 3%;
     top:50%;
