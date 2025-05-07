@@ -96,3 +96,34 @@ body{
     background-position: left center;
     font-family: letra;
 }
+
+footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    margin:0;
+    font-family: cursive;
+    padding: 7px;
+}
+
+#perfil-github{
+    text-decoration: none;
+    color:rgba(33, 192, 192, 0.75)
+
+}
+
+#perfil-github:hover{
+    color:skyblue;
+    text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.400);
+
+}
+
+#site-estudonauta{
+    text-decoration: none;
+    color:lightgray
+}
+
+#site-estudonauta:hover{
+    text-decoration: underline;
+    color:skyblue;
+}
